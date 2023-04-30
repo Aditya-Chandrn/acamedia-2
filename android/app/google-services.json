@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "352760105318",
+    "project_id": "acamedia-cf4b0",
+    "storage_bucket": "acamedia-cf4b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352760105318:android:0ab935a1a55a920f39e0a7",
+        "android_client_info": {
+          "package_name": "com.example.acamedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352760105318-hhu0iuuambn6bdm9dtkr7p6t1tu1umqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acamedia",
+            "certificate_hash": "2b670813342c23617cd3552ef47c368a28ec85e5"
+          }
+        },
+        {
+          "client_id": "352760105318-c9r6pjm9ngn2coo1dnm9q6ld92jtr5he.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUTthBFjzXW71EDZcXcD-sp-V3jSSSrL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352760105318-c9r6pjm9ngn2coo1dnm9q6ld92jtr5he.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

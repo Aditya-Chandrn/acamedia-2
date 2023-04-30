@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hiennv.flutter_callkit_incoming" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+9-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:4:5-80
+9-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:4:22-78
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:5:5-67
+10-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:5:22-64
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:6:5-66
+11-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:6:22-63
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:7:5-68
+12-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:7:22-65
+13
+14    <application>
+14-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:10:5-49:19
+15        <activity
+15-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:12:9-25:20
+16            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingActivity"
+16-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:13:13-87
+17            android:excludeFromRecents="true"
+17-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:14:13-46
+18            android:exported="true"
+18-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:19:13-36
+19            android:launchMode="singleTask"
+19-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:17:13-44
+20            android:screenOrientation="portrait"
+20-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:15:13-49
+21            android:showOnLockScreen="true"
+21-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:16:13-44
+22            android:theme="@style/CallkitIncomingTheme"
+22-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:20:13-56
+23            android:turnScreenOn="true" >
+23-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:18:13-40
+24            <intent-filter>
+24-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:21:13-24:29
+25                <action android:name="${applicationId}.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+25-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:22:17-116
+25-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:22:25-113
+26
+27                <category android:name="android.intent.category.DEFAULT" />
+27-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:23:17-76
+27-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:23:27-73
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:26:9-29:85
+31            android:name="com.hiennv.flutter_callkit_incoming.TransparentActivity"
+31-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:29:13-83
+32            android:exported="false"
+32-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:27:13-37
+33            android:theme="@style/TranslucentTheme" />
+33-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:28:13-52
+34
+35        <receiver
+35-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:31:9-42:20
+36            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingBroadcastReceiver"
+36-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:32:13-96
+37            android:enabled="true"
+37-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:33:13-35
+38            android:exported="true" >
+38-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:34:13-36
+39            <intent-filter>
+39-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:35:13-41:29
+40                <action android:name="${applicationId}.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+40-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:22:17-116
+40-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:22:25-113
+41                <action android:name="${applicationId}.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ACCEPT" />
+41-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:37:17-114
+41-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:37:25-111
+42                <action android:name="${applicationId}.com.hiennv.flutter_callkit_incoming.ACTION_CALL_DECLINE" />
+42-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:38:17-115
+42-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:38:25-112
+43                <action android:name="${applicationId}.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ENDED" />
+43-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:39:17-113
+43-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:39:25-110
+44                <action android:name="${applicationId}.com.hiennv.flutter_callkit_incoming.ACTION_CALL_TIMEOUT" />
+44-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:40:17-115
+44-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:40:25-112
+45            </intent-filter>
+46        </receiver>
+47
+48        <service
+48-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:44:9-47:91
+49            android:name="com.hiennv.flutter_callkit_incoming.CallkitSoundPlayerService"
+49-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:47:13-89
+50            android:enabled="true"
+50-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:45:13-35
+51            android:exported="true" />
+51-->C:\Users\Aditya Chandrn\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_callkit_incoming-1.0.3+3\android\src\main\AndroidManifest.xml:46:13-36
+52    </application>
+53
+54</manifest>

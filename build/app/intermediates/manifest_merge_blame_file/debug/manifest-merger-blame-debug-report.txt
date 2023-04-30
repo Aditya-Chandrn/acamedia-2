@@ -1,0 +1,825 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.acamedia"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:6:5-67
+15-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:4:5-76
+16-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:4:22-73
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:5:5-71
+17-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:5:22-68
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:7:5-79
+18-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:7:22-76
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:8:5-65
+19-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:8:22-62
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:9:5-68
+20-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:9:22-65
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:10:5-80
+21-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:10:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:11:5-81
+22-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:11:22-78
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:12:5-75
+23-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:12:22-72
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:13:5-68
+24-->C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\android\app\src\main\AndroidManifest.xml:13:22-65
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+25-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+26    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+26-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+26-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-66
+27-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-63
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+28-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+29
+30    <permission
+30-->[androidx.core:core:1.9.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.acamedia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.acamedia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+35    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 华为推送 -->
+35-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:14:5-68
+35-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:14:22-65
+36    <queries>
+36-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:17:5-21:15
+37        <intent>
+37-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:18:9-20:18
+38            <action android:name="com.huawei.hms.core.aidlservice" />
+38-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:19:13-70
+38-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:19:21-67
+39        </intent>
+40    </queries>
+41
+42    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+43
+44    <application
+45        android:name="android.app.Application"
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.9.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+49        android:label="acamedia" >
+50        <activity
+51            android:name="com.example.acamedia.MainActivity"
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+53            android:exported="true"
+54            android:hardwareAccelerated="true"
+55            android:launchMode="singleTop"
+56            android:theme="@style/LaunchTheme"
+57            android:windowSoftInputMode="adjustResize" >
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+66                android:name="io.flutter.embedding.android.NormalTheme"
+67                android:resource="@style/NormalTheme" />
+68
+69            <intent-filter>
+70                <action android:name="android.intent.action.MAIN" />
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+80            android:name="flutterEmbedding"
+81            android:value="2" />
+82
+83        <service
+83-->[:cloud_firestore] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:cloud_firestore] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:68:13-37
+87            <meta-data
+87-->[:cloud_firestore] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+88-->[:cloud_firestore] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:cloud_firestore] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+90            <meta-data
+90-->[:firebase_auth] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+91-->[:firebase_auth] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_auth] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+93            <meta-data
+93-->[:firebase_core] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+94-->[:firebase_core] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_core] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:69:13-71:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+97-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:70:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:71:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\fc58c4bb0c2ba423ba6b31f4487369bc\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:19:13-21:85
+100                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+100-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\fc58c4bb0c2ba423ba6b31f4487369bc\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:20:17-111
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\fc58c4bb0c2ba423ba6b31f4487369bc\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:21:17-82
+102        </service>
+103        <service
+103-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:72
+104            android:name="com.example.zego_zpns.internal.utils.ZPNsMessagingBackgroundService"
+104-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-95
+105            android:exported="false"
+105-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+106            android:permission="android.permission.BIND_JOB_SERVICE" />
+106-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-69
+107
+108        <receiver
+108-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-22:20
+109            android:name="com.example.zego_zpns.internal.ZPNsPluginEventHandler"
+109-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-81
+110            android:enabled="true"
+110-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-35
+111            android:exported="true" >
+111-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-36
+112            <intent-filter>
+112-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+113                <action android:name="im.zego.zim.zpns.intent.action.MESSAGE" />
+113-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-81
+113-->[:zego_zpns] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-78
+114            </intent-filter>
+115        </receiver>
+116
+117        <activity
+117-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-17:64
+118            android:name="im.zego.internal.screencapture.ZegoScreenCaptureManager$ZegoScreenCaptureAssistantActivity"
+118-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-118
+119            android:configChanges="screenSize|orientation"
+119-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-59
+120            android:exported="false"
+120-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+121            android:screenOrientation="fullUser"
+121-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-49
+122            android:theme="@android:style/Theme.Translucent" />
+122-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-61
+123
+124        <service
+124-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-27:19
+125            android:name="im.zego.internal.screencapture.ZegoScreenCaptureService"
+125-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-83
+126            android:enabled="true"
+126-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-35
+127            android:exported="false"
+127-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+128            android:foregroundServiceType="mediaProjection" >
+128-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-60
+129            <intent-filter>
+129-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+130                <action android:name="android.intent.action.screenshare" />
+130-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-76
+130-->[:zego_express_engine] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-73
+131            </intent-filter>
+132        </service>
+133
+134        <activity
+134-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-29:20
+135            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingActivity"
+135-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-87
+136            android:excludeFromRecents="true"
+136-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-46
+137            android:exported="true"
+137-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-36
+138            android:launchMode="singleTask"
+138-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-44
+139            android:screenOrientation="portrait"
+139-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-49
+140            android:showOnLockScreen="true"
+140-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-44
+141            android:theme="@style/CallkitIncomingTheme"
+141-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-56
+142            android:turnScreenOn="true" >
+142-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-40
+143            <intent-filter>
+143-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-28:29
+144                <action android:name="com.example.acamedia.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+144-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-116
+144-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-113
+145
+146                <category android:name="android.intent.category.DEFAULT" />
+146-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-76
+146-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:27-73
+147            </intent-filter>
+148        </activity>
+149        <activity
+149-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-33:55
+150            android:name="com.hiennv.flutter_callkit_incoming.TransparentActivity"
+150-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-83
+151            android:exported="false"
+151-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-37
+152            android:theme="@style/TranslucentTheme" />
+152-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+153
+154        <receiver
+154-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-46:20
+155            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingBroadcastReceiver"
+155-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-96
+156            android:enabled="true"
+156-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-35
+157            android:exported="true" >
+157-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-36
+158            <intent-filter>
+158-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-45:29
+159                <action android:name="com.example.acamedia.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+159-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-116
+159-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-113
+160                <action android:name="com.example.acamedia.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ACCEPT" />
+160-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-114
+160-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:41:25-111
+161                <action android:name="com.example.acamedia.com.hiennv.flutter_callkit_incoming.ACTION_CALL_DECLINE" />
+161-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:42:17-115
+161-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:42:25-112
+162                <action android:name="com.example.acamedia.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ENDED" />
+162-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-113
+162-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:43:25-110
+163                <action android:name="com.example.acamedia.com.hiennv.flutter_callkit_incoming.ACTION_CALL_TIMEOUT" />
+163-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-115
+163-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:44:25-112
+164            </intent-filter>
+165        </receiver>
+166
+167        <service
+167-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-51:39
+168            android:name="com.hiennv.flutter_callkit_incoming.CallkitSoundPlayerService"
+168-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-89
+169            android:enabled="true"
+169-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-35
+170            android:exported="true" /> <!-- Mqtt Service -->
+170-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-36
+171        <service android:name="org.eclipse.paho.android.service.MqttService" />
+171-->[com.github.umair13adil:RxLogs:1.0.18] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\7142c2b9ec19e560015604d87452bf8c\transformed\jetified-RxLogs-1.0.18\AndroidManifest.xml:18:9-80
+171-->[com.github.umair13adil:RxLogs:1.0.18] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\7142c2b9ec19e560015604d87452bf8c\transformed\jetified-RxLogs-1.0.18\AndroidManifest.xml:18:18-77
+172
+173        <activity
+173-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:29:9-46:20
+174            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+174-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:30:13-80
+175            android:excludeFromRecents="true"
+175-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:31:13-46
+176            android:exported="true"
+176-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:32:13-36
+177            android:launchMode="singleTask"
+177-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:33:13-44
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+178-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:34:13-72
+179            <intent-filter>
+179-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:35:13-45:29
+180                <action android:name="android.intent.action.VIEW" />
+180-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+180-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+181
+182                <category android:name="android.intent.category.DEFAULT" />
+182-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-76
+182-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:27-73
+183                <category android:name="android.intent.category.BROWSABLE" />
+183-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+183-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+184
+185                <data
+185-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+186                    android:host="firebase.auth"
+186-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+187                    android:path="/"
+187-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+188                    android:scheme="genericidp" />
+188-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+189            </intent-filter>
+190        </activity>
+191        <activity
+191-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:47:9-64:20
+192            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+192-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:48:13-79
+193            android:excludeFromRecents="true"
+193-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:49:13-46
+194            android:exported="true"
+194-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:50:13-36
+195            android:launchMode="singleTask"
+195-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:51:13-44
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+196-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:52:13-72
+197            <intent-filter>
+197-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:53:13-63:29
+198                <action android:name="android.intent.action.VIEW" />
+198-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+198-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+199
+200                <category android:name="android.intent.category.DEFAULT" />
+200-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-76
+200-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:27-73
+201                <category android:name="android.intent.category.BROWSABLE" />
+201-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+201-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+202
+203                <data
+203-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+204                    android:host="firebase.auth"
+204-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+205                    android:path="/"
+205-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+206                    android:scheme="recaptcha" />
+206-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+207            </intent-filter>
+208        </activity>
+209
+210        <uses-library
+210-->[androidx.window:window:1.0.0-beta04] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+211            android:name="androidx.window.extensions"
+211-->[androidx.window:window:1.0.0-beta04] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+212            android:required="false" />
+212-->[androidx.window:window:1.0.0-beta04] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+213        <uses-library
+213-->[androidx.window:window:1.0.0-beta04] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+214            android:name="androidx.window.sidecar"
+214-->[androidx.window:window:1.0.0-beta04] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+215            android:required="false" />
+215-->[androidx.window:window:1.0.0-beta04] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+216
+217        <provider
+217-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+218            android:name="com.google.firebase.provider.FirebaseInitProvider"
+218-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+219            android:authorities="com.example.acamedia.firebaseinitprovider"
+219-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+220            android:directBootAware="true"
+220-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+221            android:exported="false"
+221-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+222            android:initOrder="100" />
+222-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+223
+224        <activity
+224-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+225            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+225-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+226            android:exported="false"
+226-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+227            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+227-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+228
+229        <meta-data
+229-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+230            android:name="com.google.android.gms.version"
+230-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+231            android:value="@integer/google_play_services_version" />
+231-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+232
+233        <provider
+233-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+234            android:name="androidx.startup.InitializationProvider"
+234-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+235            android:authorities="com.example.acamedia.androidx-startup"
+235-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+236            android:exported="false" >
+236-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+237            <meta-data
+237-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+238                android:name="androidx.work.WorkManagerInitializer"
+238-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+239                android:value="androidx.startup" />
+239-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+240            <meta-data
+240-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+241                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+241-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+242                android:value="androidx.startup" />
+242-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\228419e26f5d253cbabc1a5dced15ed0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+243            <meta-data
+243-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\2eb99e815d7dc032f413e9ec75daf1ba\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+244                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+244-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\2eb99e815d7dc032f413e9ec75daf1ba\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+245                android:value="androidx.startup" />
+245-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\2eb99e815d7dc032f413e9ec75daf1ba\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+246        </provider>
+247
+248        <service
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+249            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+251            android:enabled="@bool/enable_system_alarm_service_default"
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+252            android:exported="false" />
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+253        <service
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+254            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+255            android:directBootAware="false"
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+256            android:enabled="@bool/enable_system_job_service_default"
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+257            android:exported="true"
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+258            android:permission="android.permission.BIND_JOB_SERVICE" />
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+259        <service
+259-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+260            android:name="androidx.work.impl.foreground.SystemForegroundService"
+260-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+261            android:directBootAware="false"
+261-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+262            android:enabled="@bool/enable_system_foreground_service_default"
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+263            android:exported="false" />
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+264
+265        <receiver
+265-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+266            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+267            android:directBootAware="false"
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+268            android:enabled="true"
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+269            android:exported="false" />
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+270        <receiver
+270-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+271            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+272            android:directBootAware="false"
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+273            android:enabled="false"
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+274            android:exported="false" >
+274-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+275            <intent-filter>
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+276                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+277                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+278            </intent-filter>
+279        </receiver>
+280        <receiver
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+281            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+283            android:enabled="false"
+283-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+284            android:exported="false" >
+284-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+285            <intent-filter>
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+286                <action android:name="android.intent.action.BATTERY_OKAY" />
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+287                <action android:name="android.intent.action.BATTERY_LOW" />
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+288            </intent-filter>
+289        </receiver>
+290        <receiver
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+291            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+293            android:enabled="false"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+294            android:exported="false" >
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+295            <intent-filter>
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+296                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+297                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+298            </intent-filter>
+299        </receiver>
+300        <receiver
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+301            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+302            android:directBootAware="false"
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+303            android:enabled="false"
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+304            android:exported="false" >
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+305            <intent-filter>
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+306                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+307            </intent-filter>
+308        </receiver>
+309        <receiver
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+310            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+311            android:directBootAware="false"
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+312            android:enabled="false"
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+313            android:exported="false" >
+313-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+314            <intent-filter>
+314-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+315                <action android:name="android.intent.action.BOOT_COMPLETED" />
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+316                <action android:name="android.intent.action.TIME_SET" />
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+317                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+318            </intent-filter>
+319        </receiver>
+320        <receiver
+320-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+321            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+322            android:directBootAware="false"
+322-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+323            android:enabled="@bool/enable_system_alarm_service_default"
+323-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+324            android:exported="false" >
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+325            <intent-filter>
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+326                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+327            </intent-filter>
+328        </receiver>
+329        <receiver
+329-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+330            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+330-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+332            android:enabled="true"
+332-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+333            android:exported="true"
+333-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+334            android:permission="android.permission.DUMP" >
+334-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+335            <intent-filter>
+335-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+336                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+336-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+336-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+337            </intent-filter>
+338        </receiver>
+339
+340        <provider
+340-->[com.squareup.picasso:picasso:2.71828] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\338c0b6581c763affaa65d2765c3d40e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+341            android:name="com.squareup.picasso.PicassoProvider"
+341-->[com.squareup.picasso:picasso:2.71828] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\338c0b6581c763affaa65d2765c3d40e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+342            android:authorities="com.example.acamedia.com.squareup.picasso"
+342-->[com.squareup.picasso:picasso:2.71828] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\338c0b6581c763affaa65d2765c3d40e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+343            android:exported="false" />
+343-->[com.squareup.picasso:picasso:2.71828] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\338c0b6581c763affaa65d2765c3d40e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+344
+345        <service
+345-->[androidx.room:room-runtime:2.2.5] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\591b4b4bb6899fd9d7b672c934388f0f\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+346            android:name="androidx.room.MultiInstanceInvalidationService"
+346-->[androidx.room:room-runtime:2.2.5] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\591b4b4bb6899fd9d7b672c934388f0f\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+347            android:directBootAware="true"
+347-->[androidx.room:room-runtime:2.2.5] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\591b4b4bb6899fd9d7b672c934388f0f\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+348            android:exported="false" /> <!-- 小米推送 -->
+348-->[androidx.room:room-runtime:2.2.5] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\591b4b4bb6899fd9d7b672c934388f0f\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+349        <service
+349-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:27:9-32:46
+350            android:name="com.xiaomi.push.service.XMJobService"
+350-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:28:13-64
+351            android:enabled="true"
+351-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:29:13-35
+352            android:exported="false"
+352-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:30:13-37
+353            android:permission="android.permission.BIND_JOB_SERVICE"
+353-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:31:13-69
+354            android:process=":pushservice" /> <!-- FCM推送 -->
+354-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:32:13-43
+355        <service
+355-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:35:9-41:19
+356            android:name="im.zego.zpns.internal.receiver.FCMMessageService"
+356-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:36:13-76
+357            android:exported="false" >
+357-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:37:13-37
+358            <intent-filter>
+358-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:38:13-40:29
+359                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+359-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:39:17-78
+359-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:39:25-75
+360            </intent-filter>
+361        </service>
+362        <service
+362-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:42:9-46:46
+363            android:name="com.xiaomi.push.service.XMPushService"
+363-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:43:13-65
+364            android:enabled="true"
+364-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:44:13-35
+365            android:exported="true"
+365-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:45:13-36
+366            android:process=":pushservice" />
+366-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:46:13-43
+367        <service
+367-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:47:9-50:39
+368            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+368-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:48:13-68
+369            android:enabled="true"
+369-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:49:13-35
+370            android:exported="true" />
+370-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:50:13-36
+371        <service
+371-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:51:9-54:39
+372            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+372-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:52:13-70
+373            android:enabled="true"
+373-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:53:13-35
+374            android:exported="true" />
+374-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:54:13-36
+375
+376        <receiver
+376-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:56:9-64:20
+377            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+377-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:57:13-83
+378            android:exported="true" >
+378-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:58:13-36
+379            <intent-filter>
+379-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:59:13-63:29
+380                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+380-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+380-->[androidx.work:work-runtime:2.7.1] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\f773240c4008a6d6ebeaf2275650feef\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+381
+382                <category android:name="android.intent.category.DEFAULT" />
+382-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-76
+382-->[:flutter_callkit_incoming] C:\Users\Aditya Chandrn\Documents\Somaiya Works\Mini Projects\AcaMedia\acamedia\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:27-73
+383            </intent-filter>
+384        </receiver>
+385        <receiver
+385-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:65:9-72:20
+386            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+386-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:66:13-74
+387            android:exported="false"
+387-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:67:13-37
+388            android:process=":pushservice" >
+388-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:68:13-43
+389            <intent-filter>
+389-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:69:13-71:29
+390                <action android:name="com.xiaomi.push.PING_TIMER" />
+390-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:70:17-69
+390-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:70:25-66
+391            </intent-filter>
+392        </receiver>
+393        <receiver
+393-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:73:9-85:20
+394            android:name="im.zego.zpns.internal.receiver.XiaoMiMessageReceiver"
+394-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:74:13-80
+395            android:exported="true" >
+395-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:75:13-36
+396            <intent-filter>
+396-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:76:13-78:29
+397                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+397-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:77:17-76
+397-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:77:25-73
+398            </intent-filter>
+399            <intent-filter>
+399-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:79:13-81:29
+400                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+400-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:80:17-76
+400-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:80:25-73
+401            </intent-filter>
+402            <intent-filter>
+402-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:82:13-84:29
+403                <action android:name="com.xiaomi.mipush.ERROR" />
+403-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:83:17-66
+403-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:83:25-63
+404            </intent-filter>
+405        </receiver> <!-- 小米推送 -->
+406        <!-- 华为推送 -->
+407        <meta-data
+407-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:90:9-92:37
+408            android:name="com.huawei.hms.client.channel.androidMarket"
+408-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:91:13-71
+409            android:value="false" />
+409-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:92:13-34
+410
+411        <service
+411-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:94:9-100:19
+412            android:name="im.zego.zpns.internal.receiver.HuaWeiMessageService"
+412-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:95:13-79
+413            android:exported="true" >
+413-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:96:13-36
+414            <intent-filter>
+414-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:97:13-99:29
+415                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+415-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:98:17-81
+415-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:98:25-78
+416            </intent-filter>
+417        </service> <!-- 华为推送 -->
+418        <!-- OPPO推送 -->
+419        <service
+419-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:105:9-113:19
+420            android:name="im.zego.zpns.internal.receiver.OppoDataMessage"
+420-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:106:13-74
+421            android:exported="true"
+421-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:107:13-36
+422            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE" >
+422-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:108:13-77
+423            <intent-filter>
+423-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:109:13-112:29
+424                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE" />
+424-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:110:17-84
+424-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:110:25-81
+425                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE" />
+425-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:111:17-82
+425-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:111:25-79
+426            </intent-filter>
+427        </service>
+428        <service
+428-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:114:9-121:19
+429            android:name="im.zego.zpns.internal.receiver.OppoCompatibleDataService"
+429-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:115:13-84
+430            android:exported="true"
+430-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:116:13-36
+431            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" >
+431-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:117:13-77
+432            <intent-filter>
+432-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:118:13-120:29
+433                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+433-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:119:17-85
+433-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:119:25-82
+434            </intent-filter>
+435        </service> <!-- OPPO推送 -->
+436        <!-- VIVO push应用定义消息receiver声明 -->
+437        <receiver
+437-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:126:9-134:20
+438            android:name="im.zego.zpns.internal.receiver.VivoMessageReceiver"
+438-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:127:13-78
+439            android:exported="false" >
+439-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:128:13-37
+440            <intent-filter>
+440-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:129:13-133:29
+441
+442                <!-- 接收push消息 -->
+443                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+443-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:132:17-77
+443-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:132:25-74
+444            </intent-filter>
+445        </receiver>
+446
+447        <service
+447-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:136:9-139:71
+448            android:name="com.vivo.push.sdk.service.CommandClientService"
+448-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:137:13-74
+449            android:exported="true"
+449-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:138:13-36
+450            android:permission="com.push.permission.UPSTAGESERVICE" />
+450-->[im.zego:zpns:2.3.0] C:\Users\Aditya Chandrn\.gradle\caches\transforms-3\631cbddf83780868b92f7820fab04e27\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:139:13-68
+451    </application>
+452
+453</manifest>
