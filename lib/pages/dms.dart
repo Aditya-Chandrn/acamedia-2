@@ -1,49 +1,41 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:acamedia/helper/helper_functions.dart';
+import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
 
-// class DMs extends StatelessWidget {
-//   const DMs({super.key});
+class DMpage extends StatefulWidget {
+  final String user2Name;
+  final String user2ID;
+  const DMpage({super.key, required this.user2Name, required this.user2ID});
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//       home: DMpage(),
-//     );
-//   }
-// }
+  @override
+  State<DMpage> createState() => _DMpageState();
+}
 
-class DMpage extends StatelessWidget {
-  const DMpage({super.key});
+class _DMpageState extends State<DMpage> {
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        toolbarHeight: 65,
+        backgroundColor: Colors.black,
+        centerTitle: true,
+        title: Text(widget.user2Name, style: TextStyle(color: Colors.white, fontSize: 22),),
         actions: [
-          Row(
-            children: [
-              Container(
-                // width: double.infinity,
-                child: Row(
-                  children: [
-                    Container(child: Icon(Icons.circle_outlined)),
-                    Padding(
-                      padding: const EdgeInsets.only(left:8.0),
-                      child: Container(
-                        child: Text("Cheeku")),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(left: 230, right: 5),
-                child: IconButton(onPressed: (){},
-                icon: Icon(Icons.call)),
-              ),
-            ],
-          )
+          // IconButton(onPressed: (){}, icon: Icon(Icons.call, color: Colors.white)),
+          ZegoSendCallInvitationButton(
+          isVideoCall: true,
+          resourceID: "zegouikit_call",    // For offline call notification
+          invitees: [
+            ZegoUIKitUser(
+              id: widget.user2ID,
+              name: widget.user2Name,
+            ),
+   ],
+)
+          
         ],
       ),
     );

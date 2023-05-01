@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class DatabaseService {
-
   final String? uid;
   DatabaseService({this.uid});
 
@@ -24,5 +23,38 @@ class DatabaseService {
 
   getUserChats() async {
     return userCollection.doc(uid).snapshots();
+  }
+
+  Future startAChat(
+    String userName,
+    String uid,
+    String user2Name,
+  ) async {
+    DocumentReference chatDocumentReference = await chatCollection.add({
+      "user2Name": user2Name,
+      "UId": uid,
+      "recentMessage": "",
+      "chatID": "",
+    });
+
+    await chatDocumentReference.update({
+      "chatID": chatDocumentReference.id,
+    });
+
+    DocumentReference userDocumentReference = userCollection.doc(uid);
+    return await userDocumentReference.update({
+      "Chats":
+          FieldValue.arrayUnion(["${chatDocumentReference.id}_$user2Name"]),
+    });
+  }
+
+  // Search by name
+  searchByName(String chatName) {
+    if (userCollection.where("Name", isEqualTo: chatName).get() != null) {
+      return userCollection.where("Name", isEqualTo: chatName).get();
+    } 
+    else if (userCollection.where("Name".substring(0, "Name".indexOf(" ")),isEqualTo: chatName).get() !=null) {
+      return userCollection.where("Name".substring(0, "Name".indexOf(" ")), isEqualTo: chatName).get();
+    }
   }
 }

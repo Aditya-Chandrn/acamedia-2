@@ -632,6 +632,18 @@
       "languageVersion": "2.16"
     },
     {
+      "name": "zego_uikit_signaling_plugin",
+      "rootUri": "file:///C:/Users/Aditya%20Chandrn/AppData/Local/Pub/Cache/hosted/pub.dev/zego_uikit_signaling_plugin-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "zego_zim",
+      "rootUri": "file:///C:/Users/Aditya%20Chandrn/AppData/Local/Pub/Cache/hosted/pub.dev/zego_zim-2.7.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "zego_zpns",
       "rootUri": "file:///C:/Users/Aditya%20Chandrn/AppData/Local/Pub/Cache/hosted/pub.dev/zego_zpns-2.3.2",
       "packageUri": "lib/",
@@ -644,7 +656,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-04-30T17:18:31.126142Z",
+  "generated": "2023-05-01T15:50:02.018852Z",
   "generator": "pub",
   "generatorVersion": "2.19.5"
 }

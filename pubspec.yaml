@@ -30,12 +30,13 @@ environment:
 dependencies:
   cloud_firestore: ^4.5.2
   cupertino_icons: ^1.0.2
-  zego_uikit_prebuilt_call: ^3.3.9
+  zego_uikit_prebuilt_call: ^3.3.7
   firebase_auth: ^4.4.2
   firebase_core: ^2.10.0
   flutter:
     sdk: flutter
   shared_preferences: ^2.1.0
+  zego_uikit_signaling_plugin: ^2.1.4
 
 dev_dependencies:
 

@@ -3,7 +3,9 @@
 //Aditya
 
 import 'package:acamedia/helper/helper_functions.dart';
+import 'package:acamedia/pages/addChat.dart';
 import 'package:acamedia/pages/auth/login.dart';
+import 'package:acamedia/pages/dms.dart';
 import 'package:acamedia/pages/search.dart';
 import 'package:acamedia/pages/settings_page.dart';
 import 'package:acamedia/service/auth_ser.dart';
@@ -154,15 +156,26 @@ class _homePageState extends State<homePage> {
         centerTitle: true,
         title: Text("Chats"),
         backgroundColor: Color.fromARGB(255, 32, 32, 32),
+        actions: [
+          IconButton(
+              onPressed: () {
+                nextPage(context, searchPage());
+              },
+              icon: Icon(
+                Icons.search,
+                color: Colors.white,
+              )),
+        ],
       ),
       body: chatList(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          popupDialog(context);
+          // popupDialog(context);
+          nextPage(context, addChat());
         },
         elevation: 0,
         backgroundColor: Colors.black,
-        child: Icon(Icons.search, color: Colors.white, size: 30),
+        child: Icon(Icons.add, color: Colors.white, size: 30),
       ),
     );
   }
@@ -194,6 +207,10 @@ class _homePageState extends State<homePage> {
   }
 
   noChatWidget() {
-    return Text("NO CHATS");
+    return Container(
+      child: Center(
+        child: Text("Tap the Search Icon to start a conversation."),
+      ),
+    );
   }
 }
